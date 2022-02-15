@@ -1,0 +1,7 @@
+{
+  "name": "icreact",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
