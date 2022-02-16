@@ -16,7 +16,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer />
+        <p>placeholder, for changes coming...</p>
       </IonContent>
     </IonPage>
   );
