@@ -8,7 +8,9 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
-
+env:
+  REACT_APP_SUPABASE_URL: ${{ secrets.REACT_APP_SUPABASE_URL }}
+  REACT_APP_SUPABASE_API_KEY: ${{ secrets.REACT_APP_SUPABASE_API_KEY }}
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
