@@ -10,15 +10,10 @@ const Home: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
         <IonGrid>
-      <IonRow>
-        <IonCol><IonButton>Test Button</IonButton></IonCol>
-        </IonRow>
+          <IonRow>
+           <IonCol><IonButton>Test Button</IonButton></IonCol>
+          </IonRow>
         </IonGrid>
       </IonContent>
     </IonPage>
